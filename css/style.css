@@ -1,0 +1,698 @@
+/*CSS document*/
+*{box-sizing: border-box;}
+
+
+body {
+    background-color: #00C0E0;
+
+}
+
+
+/*Main*/
+
+/*Paragraph*/
+p {
+    font-family: Times New Roman, sans-serif;
+}
+
+h2,h1 {
+    font-family: Arial; 
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+/*Forside*/
+
+.logo-pige {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.hjerne1 {
+    width: 100%;
+}
+
+.titel {
+    width: 100%;
+}
+
+.glad1 {
+    width: 100%;
+}
+
+.papir {
+    width: 100%;
+}
+
+.bamse {
+    width: 100%;
+}
+
+/*Mental Sundhed*/
+
+.logo2 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.titel2 {
+    width: 100%;
+}
+
+.ms {
+    width: 100%;
+}
+
+.smiley {
+    width: 100%;
+}
+
+.saks {
+    width: 100%;
+}
+
+.bamse1 {
+    width: 100%;
+}
+
+
+
+/*Mobil*/
+@media screen and (max-width: 480px) and (max-height: 668px) {
+
+    /*Forside*/
+    .logo-pige {
+        width: 60%;
+        position: fixed;
+        bottom: 0px;
+        left: -20px;
+        right: 0px;
+    }
+
+    .hjerne1 {
+        width: 30%;
+        position: fixed;
+        top: 40%;
+    }
+
+    .titel {
+        width: 95%;
+        position: fixed;
+    }
+
+    .glad1 {
+        width: 30%;
+        position: fixed;
+        top: 20%;
+        left: 20%
+    }
+
+    .papir {
+        width: 30%;
+        position: fixed;
+        top: 30%;
+        left: 55%;
+    }
+
+    .bamse {
+        width: 30%;
+        position: fixed;
+        top: 50%;
+        right: 1%
+    }
+
+    /*Mental Sundhed*/
+
+    .logo2 {
+        width: 30%;
+        left: 35%;
+    }
+
+    .titel2 {
+        width: 60%;
+        position: absolute;
+        left: 20%;
+        top: 16%;
+    }
+
+    .navigation {
+        display: inline-block;
+        position: absolute;
+        top: 150px;
+        text-align: center;
+        left: -20px
+    }
+
+    .ms {
+        width: 25%;
+    }
+
+
+    .smiley {
+        width: 20%;
+    }
+
+    .saks {
+        width: 20%;
+    }
+
+    .bamse1 {
+        width: 15%;
+    }
+
+    p {
+        font-size: 50%;
+    }
+
+    .gul {
+        position: relative;
+        width: 70%;
+        top: 260px;
+        left: 15%;
+    }
+
+    .pink {
+        width: 104%;
+        position: relative;
+        top: 240px;
+        right: 2%;
+        height: 810px;
+    }
+
+    .ny {
+        width: 95%;
+        position: absolute;
+        top: 255px;
+        left: 2%;
+    }
+
+    .dreng {
+        width: 99%;
+        position: absolute;
+        top: 320px;
+        left: 1.3%;
+    }
+
+    .artikel1 {
+        background-color: white;
+        font-size: 147%;
+        position: absolute;
+        top: 390px;
+        left: 3%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        right: 2.6%;
+        text-align: center;
+
+    }
+
+    .born {
+        width: 100%;
+        position: absolute;
+        top: 575px;
+        left: 0.5%;
+
+    }
+
+    .tegn {
+        width: 97%;
+        position: absolute;
+        top: 843px;
+    }
+
+
+    .artikel2 {
+        background-color: white;
+        position: absolute;
+        top: 668px;
+        left: 3%;
+        right: 2.6%;
+        text-align: center;
+    }
+
+    .artikel3 {
+        background-color: white;
+        position: absolute;
+        top: 926px;
+        left: 3%;
+        right: 2.6%;
+        text-align: center;
+    }
+
+    .aeldre {
+        width: 35%;
+        position: absolute;
+        top: 1130px;
+        right: 0px;
+    }
+
+    /*Artikel 1*/
+
+    .gul2 {
+        position: relative;
+        width: 104%;
+        top: 260px;
+        left: -1.5%;
+    }
+
+    .artikeltitel {
+
+        position: absolute;
+        top: 270px;
+        left: 3%;
+        right: 2.6%;
+        text-align: center;
+    }
+
+    .resume {
+        background-color: white;
+        position: absolute;
+        font-size: 20px;
+        top: 560px;
+        width: 90%;
+        left: 5%;
+        border-radius: 8px;
+    }
+
+    article {
+        position: absolute;
+        font-size: 30px;
+        top: 760px;
+        width: 90%;
+        left: 5%;
+    }
+
+
+    .pinkone {
+        width: 104%;
+        position: relative;
+        top: 240px;
+        right: 2%;
+        height: 1350px;
+    }
+
+    .drengtwo {
+        width: 99%;
+        position: absolute;
+        left: 5px;
+        top: 60%;
+    }
+
+
+    /*Artikel 2*/
+    .born2 {
+        width: 100%;
+        position: absolute;
+        top: 330px;
+        left: 0.5%;
+    }
+
+    .resume2 {
+        position: absolute;
+        top: 580px;
+        background-color: white;
+        border-radius: 8px;
+        position: absolute;
+        font-size: 20px;
+        width: 90%;
+        left: 5%;
+
+    }
+
+    article {
+        position: absolute;
+        top: 760px;
+    }
+
+    .pink2 {
+        width: 104%;
+        position: relative;
+        top: 240px;
+        right: 2%;
+        height: 1180px;
+    }
+
+    /*Artikel 3*/
+    .tegn2 {
+        width: 97%;
+        position: absolute;
+        top: 330px;
+    }
+
+    .resume3 {
+        position: absolute;
+        top: 580px;
+        background-color: white;
+        border-radius: 8px;
+        position: absolute;
+        font-size: 20px;
+        width: 90%;
+        left: 5%;
+    }
+
+    ol {
+        font-size: 15px;
+        position: absolute;
+        top: -50px;
+        left: -25px;
+
+    }
+
+    .pink3 {
+        width: 104%;
+        position: relative;
+        top: 240px;
+        right: 2%;
+        height: 1580px;
+    }
+
+
+}
+
+/*Stor desktop*/
+
+/*Forside*/
+
+@media screen and (min-width:1080px) {
+    .logo-pige {
+        width: 25%;
+        position: absolute;
+        top: -850px;
+        left: 35%;
+    }
+
+    .hjerne1 {
+        width: 20%;
+        position: absolute;
+        top: 520px;
+        left: 70px;
+    }
+
+    .titel {
+        width: 40%;
+        position: absolute;
+        bottom: -40px;
+        left: 30%;
+    }
+
+    .glad1 {
+        width: 20%;
+        position: absolute;
+        left: 340px;
+    }
+
+    .papir {
+        width: 20%;
+        position: absolute;
+        right: 340px;
+    }
+
+    .bamse {
+        width: 20%;
+        position: absolute;
+        right: 100px;
+        bottom: 20px;
+    }
+
+    /*Mental Sundhed*/
+
+    .logo2 {
+        width: 15%;
+    }
+
+    .titel2 {
+        width: 15%;
+        position: absolute;
+        top: 230px;
+    }
+
+    .ms {
+        width: 15%;
+        position: absolute;
+        left: 500px;
+    }
+
+    .smiley {
+        width: 12%;
+        position: absolute;
+        left: 800px;
+    }
+
+    .saks {
+        width: 12%;
+        position: absolute;
+        right: 630px;
+    }
+
+    .bamse1 {
+        width: 8%;
+        position: absolute;
+        right: 460px;
+    }
+
+    .pink {
+        width: 101%;
+        height: 490px;
+        position: relative;
+        top: 391px;
+        left: -1%;
+    }
+
+    .dreng {
+        width: 33%;
+        position: absolute;
+        left: 28px;
+        top: 440px;
+
+    }
+
+    .born {
+        width: 31%;
+        position: absolute;
+        left: 678px;
+        top: 443px;
+    }
+
+    .tegn {
+        width: 30%;
+        position: absolute;
+        right: 35px;
+        top: 445px;
+    }
+
+    .gul {
+        width: 25%;
+        position: absolute;
+        left: 35%;
+        top: 310px;
+    }
+
+    .ny {
+        width: 30%;
+        position: absolute;
+        left: 32%;
+        top: 300px;
+    }
+
+    h2 {
+        background-color: white;
+        padding: 5%;
+
+        text-align: center;
+    }
+
+    .artikel1 {
+        position: absolute;
+        top: 590px;
+        left: 37px;
+        width: 555px;
+        padding: 1.4%;
+    }
+
+    .artikel2 {
+        position: absolute;
+        top: 587px;
+        left: 688px;
+        width: 570px;
+
+    }
+
+    .artikel3 {
+        position: absolute;
+        top: 587px;
+        right: 40px;
+        width: 570px;
+    }
+
+    .aeldre {
+        width: 8%;
+        position: absolute;
+        right: 30px;
+        bottom: 0px;
+    }
+
+    /*Artikel 1*/
+
+    .pinkone {
+        position: absolute;
+        left: -0.5%;
+        top: 400px;
+        width: 100%;
+        height: 925px;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 37%;
+        top: 330px;
+    }
+
+    .gul2 {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+        top: 310px;
+    }
+
+    .drengtwo {
+        width: 40%;
+        position: absolute;
+        top: 45%;
+        left: 3%;
+
+    }
+
+    .resume {
+        background-color: white;
+        font-size: 30px;
+        width: 50%;
+        position: absolute;
+        top: 43%;
+        left: 45%;
+        border-radius: 8px;
+    }
+
+    article {
+        width: 50%;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+        top: 62%;
+    }
+
+    /*Artikel 2*/
+
+    .pink2 {
+        position: absolute;
+        left: -0.5%;
+        top: 400px;
+        width: 100%;
+        height: 800px;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 37%;
+        top: 330px;
+    }
+
+    .gul2 {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+        top: 310px;
+    }
+
+    .born2 {
+        width: 40%;
+        position: absolute;
+        top: 45%;
+        left: 3%;
+
+    }
+
+    .resume2 {
+        background-color: white;
+        font-size: 30px;
+        width: 50%;
+        position: absolute;
+        top: 43%;
+        left: 45%;
+        border-radius: 8px;
+    }
+
+    article {
+        width: 50%;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+        top: 62%;
+    }
+
+    /*Article 3*/
+    .pink3 {
+        position: absolute;
+        left: -0.5%;
+        top: 400px;
+        width: 100%;
+        height: 1400px;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 36.5%;
+        top: 330px;
+    }
+
+    .gul2 {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+        top: 310px;
+    }
+
+    .tegn2 {
+        width: 40%;
+        position: absolute;
+        top: 45%;
+        left: 3%;
+
+    }
+
+    .resume3 {
+        background-color: white;
+        font-size: 30px;
+        width: 50%;
+        position: absolute;
+        top: 43%;
+        left: 45%;
+        border-radius: 8px;
+    }
+
+    article {
+        width: 50%;
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+        top: 62%;
+    }
+}
